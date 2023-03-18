@@ -1,6 +1,5 @@
 
-print("""Thank You for dining
-This is the Tip Calculator for your convenience.""")
+print("""This is the Tip Calculator for your convenience.""")
 
 
 bill_cost=int(input("How much was the bill?: $"))
