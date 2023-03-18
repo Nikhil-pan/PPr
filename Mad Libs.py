@@ -1,6 +1,6 @@
-print("")
+print(" ")
 print("<||<||<|| MAD LIBS GENERATOR ||>||>||>")
-print("")
+print(" ")
 print("Hey! Let's get started on your Mad Libs.")
 print("Enter in words as specified below...")
 print("")
