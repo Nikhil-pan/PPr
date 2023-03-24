@@ -16,3 +16,7 @@ print ("Ah, so your name is {nam}, your quest is {ques}, " \
 "and your favorite color is {colr}.".format(nam=name,ques=quest,colr=color))
 
 print('This isn\'t flying, this is falling with style!')
+
+print(bool(1))
+
+
