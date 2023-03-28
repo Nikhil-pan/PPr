@@ -107,3 +107,39 @@ def city_correct(city):
 
 
 city_correct(city)
+
+
+#function arguments can be of any datatype,
+#no need to mention it !
+
+n = [3, 5, 7]
+def print_list(x):
+  for i in range(0, len(x)):
+    print(x[i])
+    
+print_list(n)
+
+#range can be passed as an argument to a list 
+def my_function(x):
+  for i in range(0, len(x)):
+    x[i] = x[i]
+  return x
+print(my_function(range(3))) # Add your range between the parentheses!
+
+#concatenating two strings
+def join_strings(lst):
+  result=""
+  for i in range(len(lst)):
+    result+=lst[i]
+  return result
+
+#list of lists in a function
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+def flatten(lst):
+  results=[]
+  for i in lst:
+    for j in i:
+      results.append(j)
+  return results
+
+print(flatten(n))
